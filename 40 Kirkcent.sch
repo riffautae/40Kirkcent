@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/12/2013 8:29:17 PM
+EESchema Schematic File Version 2  date 1/13/2013 2:26:35 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:components
-LIBS:OneProduct-cache
+LIBS:40 Kirkcent-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
@@ -70,7 +70,7 @@ Connection ~ 13550 1600
 Connection ~ 14350 1600
 Connection ~ 15150 1600
 Wire Wire Line
-	14350 950  14350 3300
+	14350 950  14350 4150
 Wire Wire Line
 	13550 950  13550 4150
 Wire Wire Line
@@ -297,8 +297,6 @@ Wire Wire Line
 	13550 2450 13750 2450
 Connection ~ 13550 2450
 Wire Wire Line
-	14250 2950 14250 3300
-Wire Wire Line
 	14250 3300 14150 3300
 Wire Wire Line
 	14250 2100 14250 2450
@@ -336,11 +334,11 @@ Wire Wire Line
 Wire Wire Line
 	15850 3300 15750 3300
 Wire Wire Line
-	15850 2100 15850 2450
+	15850 2050 15850 2450
 Wire Wire Line
 	15850 2450 15750 2450
 Wire Wire Line
-	15850 1250 15850 1600
+	15850 1200 15850 1600
 Wire Wire Line
 	15850 1600 15750 1600
 Wire Wire Line
@@ -437,7 +435,7 @@ Wire Wire Line
 	14450 2750 14450 2950
 Connection ~ 14450 2750
 Wire Wire Line
-	13650 2750 13650 2950
+	13650 2750 13650 3100
 Connection ~ 13650 2750
 Wire Wire Line
 	12850 2750 12850 2950
@@ -2054,4 +2052,101 @@ Text Label 6200 3000 0    60   ~ 0
 KC5
 Text Label 6200 2900 0    60   ~ 0
 KC6
+$Comp
+L SWITCH_PUSH SW3:10b2
+U 1 1 50F261C9
+P 15600 1950
+F 0 "SW3:10b2" H 15750 2060 50  0000 C CNN
+F 1 "P" H 15600 1870 50  0000 C CNN
+	1    15600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15850 2050 15900 2050
+Wire Wire Line
+	15900 2050 15900 1950
+Connection ~ 15850 2100
+Wire Wire Line
+	15300 1950 15250 1950
+Connection ~ 15250 1950
+Wire Wire Line
+	15300 1100 15250 1100
+Connection ~ 15250 1100
+Wire Wire Line
+	15850 1200 15900 1200
+Wire Wire Line
+	15900 1200 15900 1100
+Connection ~ 15850 1250
+$Comp
+L SWITCH_PUSH SW1:9
+U 1 1 50F26A7B
+P 14750 3800
+F 0 "SW1:9" H 14900 3910 50  0000 C CNN
+F 1 "B" H 14750 3720 50  0000 C CNN
+	1    14750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1:9
+U 1 1 50F26A81
+P 14750 4150
+F 0 "D1:9" H 14750 4250 40  0000 C CNN
+F 1 "D" H 14750 4050 40  0000 C CNN
+	1    14750 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14350 4150 14550 4150
+Wire Wire Line
+	14450 3800 14450 3600
+Connection ~ 14450 3600
+Wire Wire Line
+	15050 3800 15050 4150
+Wire Wire Line
+	15050 4150 14950 4150
+$Comp
+L SWITCH_PUSH SW2:8b1
+U 1 1 50F26FE4
+P 13950 3100
+F 0 "SW2:8b1" H 14100 3210 50  0000 C CNN
+F 1 "K" H 13950 3020 50  0000 C CNN
+	1    13950 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 13650 2950
+Wire Wire Line
+	14250 2950 14250 3300
+Connection ~ 14250 3100
+$Comp
+L SWITCH_PUSH SW2:9b1
+U 1 1 50F27845
+P 14700 3100
+F 0 "SW2:9b1" H 14850 3210 50  0000 C CNN
+F 1 "L" H 14700 3020 50  0000 C CNN
+	1    14700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 3100 14400 2950
+Wire Wire Line
+	14400 2950 14450 2950
+Wire Wire Line
+	15000 3100 15050 3100
+Connection ~ 15050 3100
+$Comp
+L SWITCH_PUSH SW2:10b1
+U 1 1 50F27BEA
+P 15500 3100
+F 0 "SW2:10b1" H 15650 3210 50  0000 C CNN
+F 1 ";" H 15500 3020 50  0000 C CNN
+	1    15500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 3100 15200 2950
+Wire Wire Line
+	15200 2950 15250 2950
+Wire Wire Line
+	15800 3100 15850 3100
+Connection ~ 15850 3100
 $EndSCHEMATC

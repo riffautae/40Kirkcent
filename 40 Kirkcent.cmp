@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-10-09 BZR 3762)-testing date = 1/12/2013 6:52:37 PM
+Cmp-Mod V01 Created by CvPcb (2012-10-09 BZR 3762)-testing date = 1/13/2013 2:27:14 AM
 
 BeginCmp
 TimeStamp = /50EA28FF;
@@ -115,6 +115,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4D9C9F42;
 Reference = D1:8;
+ValeurCmp = D;
+IdModule  = DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F26A81;
+Reference = D1:9;
 ValeurCmp = D;
 IdModule  = DIODE;
 EndCmp
@@ -351,111 +358,6 @@ IdModule  = DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = /50E3D628;
-Reference = KC0;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D60A;
-Reference = KC1;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D619;
-Reference = KC2;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D637;
-Reference = KC3;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D646;
-Reference = KC4;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D655;
-Reference = KC5;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D664;
-Reference = KC6;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D673;
-Reference = KC7;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D682;
-Reference = KC8;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D691;
-Reference = KC9;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3D6A0;
-Reference = KC10;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3CB55;
-Reference = KR1;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3CB46;
-Reference = KR2;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3CB37;
-Reference = KR3;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50E3CB28;
-Reference = KR4;
-ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
-EndCmp
-
-BeginCmp
 TimeStamp = /50EA1DCC;
 Reference = RD3;
 ValeurCmp = R;
@@ -575,6 +477,13 @@ IdModule  = CHERRY_PLATE_125H;
 EndCmp
 
 BeginCmp
+TimeStamp = /50F26A7B;
+Reference = SW1:9;
+ValeurCmp = B;
+IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
 TimeStamp = /50E657E9;
 Reference = SW1:10b1;
 ValeurCmp = M;
@@ -645,6 +554,13 @@ IdModule  = CHERRY_PLATE_100H;
 EndCmp
 
 BeginCmp
+TimeStamp = /50F26FE4;
+Reference = SW2:8b1;
+ValeurCmp = K;
+IdModule  = CHERRY_PLATE_225H;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D92DFB7;
 Reference = SW2:9;
 ValeurCmp = L;
@@ -652,8 +568,22 @@ IdModule  = CHERRY_PLATE_100H;
 EndCmp
 
 BeginCmp
+TimeStamp = /50F27845;
+Reference = SW2:9b1;
+ValeurCmp = L;
+IdModule  = CHERRY_PLATE_125H;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D92DFB6;
 Reference = SW2:10;
+ValeurCmp = ;;
+IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F27BEA;
+Reference = SW2:10b1;
 ValeurCmp = ;;
 IdModule  = CHERRY_PLATE_100H;
 EndCmp
@@ -803,6 +733,13 @@ TimeStamp = /50E64E27;
 Reference = SW3:10b1;
 ValeurCmp = P;
 IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F261C9;
+Reference = SW3:10b2;
+ValeurCmp = P;
+IdModule  = CHERRY_PLATE_175H;
 EndCmp
 
 BeginCmp
