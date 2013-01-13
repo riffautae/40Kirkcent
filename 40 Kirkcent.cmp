@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-10-09 BZR 3762)-testing date = 1/13/2013 2:27:14 AM
+Cmp-Mod V01 Created by PcbNew date = 1/13/2013 10:34:59 AM
 
 BeginCmp
 TimeStamp = /50EA28FF;
@@ -393,10 +393,24 @@ IdModule  = CHERRY_PLATE_125H;
 EndCmp
 
 BeginCmp
+TimeStamp = /50F2E656;
+Reference = SW1:0b1;
+ValeurCmp = SHIFT;
+IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
 TimeStamp = /50E62ECB;
 Reference = SW1:1;
 ValeurCmp = Z;
 IdModule  = CHERRY_PLATE_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F2EA18;
+Reference = SW1:1b1;
+ValeurCmp = Z;
+IdModule  = CHERRY_PLATE_100H;
 EndCmp
 
 BeginCmp
@@ -423,6 +437,13 @@ EndCmp
 BeginCmp
 TimeStamp = /50E6581F;
 Reference = SW1:4b1;
+ValeurCmp = C;
+IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F2EDE2;
+Reference = SW1:4b2;
 ValeurCmp = C;
 IdModule  = CHERRY_PLATE_100H;
 EndCmp
@@ -456,6 +477,13 @@ IdModule  = CHERRY_PLATE_125H;
 EndCmp
 
 BeginCmp
+TimeStamp = /50F2F1AF;
+Reference = SW1:6b2;
+ValeurCmp = V;
+IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D92DFAF;
 Reference = SW1:7;
 ValeurCmp = B;
@@ -470,10 +498,24 @@ IdModule  = CHERRY_PLATE_125H;
 EndCmp
 
 BeginCmp
+TimeStamp = /50F2F1B5;
+Reference = SW1:7b2;
+ValeurCmp = B;
+IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D92DFB0;
 Reference = SW1:8;
 ValeurCmp = M;
 IdModule  = CHERRY_PLATE_125H;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F2F1BB;
+Reference = SW1:8b2;
+ValeurCmp = M;
+IdModule  = CHERRY_PLATE_100H;
 EndCmp
 
 BeginCmp
@@ -495,6 +537,13 @@ TimeStamp = /4D92DFA6;
 Reference = SW2:0;
 ValeurCmp = CAPS;
 IdModule  = CHERRY_PLATE_100H;
+EndCmp
+
+BeginCmp
+TimeStamp = /50F2E2A1;
+Reference = SW2:0b1;
+ValeurCmp = CAPS;
+IdModule  = CHERRY_PLATE_125H;
 EndCmp
 
 BeginCmp
